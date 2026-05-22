@@ -28,9 +28,8 @@ Access to clean water is a critical issue in many regions of Tanzania. Predictin
 
 Using historical operational data, this project builds predictive models capable of identifying malfunctioning pumps before complete failure.
 
----
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 - Python
 - Pandas
@@ -40,8 +39,6 @@ Using historical operational data, this project builds predictive models capable
 - Imbalanced-learn (SMOTE)
 - Matplotlib / Seaborn
 - Jupyter Notebook
-
----
 
 # Dataset
 
@@ -63,8 +60,6 @@ Target variable:
 
 - `status_group`
 
----
-
 # Exploratory Data Analysis
 
 During the initial analysis:
@@ -81,7 +76,6 @@ During the initial analysis:
 - Multiple categorical variables had extremely high cardinality
 - The target classes were imbalanced
 
----
 
 # Data Cleaning & Preprocessing
 
@@ -123,7 +117,6 @@ Two strategies were tested:
 - Class weights
 - SMOTE oversampling
 
----
 
 # Models Tested
 
@@ -143,7 +136,6 @@ The main baseline model used for experimentation.
 - Strong performance on majority classes
 - Better generalization than SMOTE approach
 
----
 
 ## XGBoost
 
@@ -155,7 +147,6 @@ An additional gradient boosting model was tested.
 - Lower leaderboard performance
 - More computationally expensive
 
----
 
 # Evaluation Metrics
 
@@ -169,7 +160,6 @@ The project evaluates models using:
 
 Special attention was given to minority class performance.
 
----
 
 # Results Summary
 
@@ -180,7 +170,6 @@ Special attention was given to minority class performance.
 | Random Forest + SMOTE | Oversampling | Lower performance |
 | XGBoost | Gradient Boosting | 0.7240 |
 
----
 
 # Key Learnings
 
@@ -194,7 +183,6 @@ This project helped reinforce practical skills in:
 - Iterative improvement process
 - Kaggle competition workflows
 
----
 
 # Future Improvements
 
@@ -207,7 +195,6 @@ Potential next steps:
 - Geospatial analysis using coordinates
 - Ensemble methods
 
----
 
 # Suggested Repository Structure
 
@@ -248,7 +235,6 @@ water-pump-prediction/
 
 Built an end-to-end machine learning pipeline to predict water pump failures in Tanzania using Random Forest and XGBoost models. Performed data cleaning, feature engineering, missing value imputation, class imbalance handling (SMOTE), and model evaluation on a multiclass classification problem. Achieved a public competition score of 0.7585 through iterative experimentation and optimization.
 
----
 
 # Ideas to Make the Repository More Professional
 
@@ -284,7 +270,6 @@ Before uploading:
 - Add section headers
 - Add conclusions after each phase
 
----
 
 # 📬 Final Takeaway
 
